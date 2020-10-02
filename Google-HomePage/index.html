@@ -6,31 +6,45 @@
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
-        <div id="navbar">
-            <ul id="nav">
-                <li>About</li>
-                <li>Store</li>
-            </ul>
-            <ul id="links">
-                <li>Gmail</li>
-                <li>Images</li>
-            </ul>
-        </div>
-        <div id="searchfom">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            <form method="GET" role="search"><input type="text" title="Search"></form>
-        </div> 
-        <footer>
-            <div id="footbar">
-                <ul id="ads">
-                    <li>Advertising</li>
-                    <li>Business</li>
-                    <li>How Search Works</li>
+        <nav class="navbar">
+            <div>
+                <ul class="list">
+                    <li class="list-item"><a href='#'>Gmail</a></li>
+                    <li class="list-item"><a href="#">Images</a></li>
+                    <li class="list-item">
+                        <div id="sign-in">
+                            <a id="sign-in-link" href="#">Sign-in</a>
+                        </div>
+                    </li>
                 </ul>
-                <ul id="setting">
-                    <li>Privacy</li>
-                    <li>Terms</li>
-                    <li>Settings</li>
+            </div>
+        </nav>
+        <div class="middle">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="google-logo">
+        </div>
+        <form class="form">
+            <div>
+                <img id="search-icon" src="/Google-HomePage/search-icon.png">
+                <input id="searchbox" type="text">
+            </div>
+            <div class="buttons-section">
+                <button class="button" type="submit">Google Search</button>
+                <button class="button">I'm Feeling Luck</button>
+            </div>
+        </form>
+        <footer class="footer">
+            <div>
+                <ul class="list" id="ads">
+                    <li class="left-items"><a href="#">Advertising</a></li>
+                    <li class="left-items"><a href="#">Business</a></li>
+                    <li class="left-items"><a href="#">How Search Works</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="list" id="setting">
+                    <li class="right-items"><a href="#">Privacy</a></li>
+                    <li class="right-items"><a href="#">Terms</a></li>
+                    <li class="right-items"><a href="#">Settings</a></li>
                 </ul>
             </div>
         </footer> 
